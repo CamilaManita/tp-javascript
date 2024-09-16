@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi curso JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Mi curso javascript</h1>
+    <div>
+      <h2>Cambiar color de párrafos</h2>
+      <p>Este es el primer párrafo.</p>
+      <p>Este es el segundo párrafo.</p>
+      <p>Este es el tercer párrafo.</p>
+      <button onclick="cambiarColor()">Cambiar color de párrafos</button>
+    </div>
+    <div>
+      <form id="miFormularioTexto">
+        <label for="texto">Ingresa un texto:</label>
+        <input type="text" id="texto" name="texto">
+        <button type="button" onclick="mostrarValor()">Mostrar valor</button>
+      </form>
+    </div>
+    <div>
+      <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+      </ul>
+      <div>
+        <input type="text" id="miCampoTexto" placeholder="Escribe algo...">
+        <button id="deshabilitarBtn">Deshabilitar</button>
+        <button id="habilitarBtn">Habilitar</button>
+      </div>
+    </div>
+    <div id="correoContainer">
+      <form id="miFormularioEmail">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+        <button type="submit">Guardar</button>
+      </form>
+    </div>
+  </div>
+  <script src="actions.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
