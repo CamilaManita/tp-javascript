@@ -13,9 +13,14 @@ Este proyecto es una práctica de JavaScript donde se implementan funciones soli
    Ejecuta el siguiente comando en la terminal para instalar las dependencias y los módulos de Node.js
    ```bash
    npm install
-4. **Ejecutar proyecto**:
+
+## Ejecución
+**Ejecutar proyecto**:
    Para correr el proyecto en un servidor local, usa el siguiente comando
    ```bash
    npm run dev
+   Se compartirá una URL con el localhost al que se tiene que dirigir para poder visualizar el proyecto
+   ```bash
+   http://localhost:5173
 
 > **Nota:** Se recomienda abrir la consola del navegador para ver la resolución completa del proyecto.
