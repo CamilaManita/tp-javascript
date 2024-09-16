@@ -23,4 +23,5 @@ Este proyecto es una práctica de JavaScript donde se implementan funciones soli
    ```bash
    http://localhost:5173
 
+
 > **Nota:** Se recomienda abrir la consola del navegador para ver la resolución completa del proyecto.
