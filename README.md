@@ -20,7 +20,6 @@ Este proyecto es una práctica de JavaScript donde se implementan funciones soli
    ```bash
    npm run dev
    Se compartirá una URL con el localhost al que se tiene que dirigir para poder visualizar el proyecto
-   ```bash
    http://localhost:5173
 
 
